@@ -1,0 +1,1 @@
+export const COMING_SOON_BG = "https://drive.google.com/uc?export=view&id=1_YR-XdhiuQMzIz6WWxsWE17tLmBB9xrZ"//"https://drive.google.com/uc?export=view&id=1V1XwuOmEy9HRtvDXl8Q5_MgIF8rO46Wd"

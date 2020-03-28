@@ -10,6 +10,9 @@ export class ContactmeComponent implements OnInit {
     Validators.required,
     Validators.email,
   ]);
+  phoneFormControl = new FormControl('', []);
+  messageFormControl = new FormControl('', []);
+  nameFormControl = new FormControl('', []);
   constructor() { }
 
   ngOnInit() {

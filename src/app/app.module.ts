@@ -13,13 +13,16 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { ComingSoonComponent } from './coming-soon/coming-soon.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    ComingSoonComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +30,8 @@ import { MatButtonModule } from '@angular/material/button';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -19,13 +19,13 @@ export class HeaderComponent implements OnInit {
         path = '/';
         break;
       case Project:
-        path = 'projects';
+        path = 'comingsoon';
         break;
       case Testimonial:
-        path = 'testimonials';
+        path = 'comingsoon';
         break;
       case Contact:
-        path = 'contact';
+        path = 'comingsoon';
         break;
     }
     this.router.navigate([path])

@@ -1,3 +1,30 @@
-<p>
-  home works!
-</p>
+<div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-md-6 col-sm-12">
+      <div class="profile-image-container">
+        <img src="https://drive.google.com/uc?export=view&id=1sv8GtuMy03rShC-58pzrxceRaRJ0WmvY"
+          class="contact-page-profile rounded w-100 h-100" />
+      </div>
+    </div>
+    <div class="col-md-6 col-sm-12 d-flex flex-column justify-content-center">
+      <div class="display-4 font-weight-bold">{{data.name}}</div>
+      <div class="text-secondary h2" *ngFor="let role of data.roles">
+        <span>{{role}}</span>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/adityaranjansingh/" target="_blank"><i
+            class="fab fa-linkedin font-3rem linkedin mr-2"></i></a>
+        <a href="https://github.com/AdityaRanjanSingh" target="_blank"> <i
+            class="fab fa-github-square font-3rem github mr-2"></i></a>
+        <a href="https://www.facebook.com/adityaranjan.singh.94" target="_blank"><i
+            class="fab fa-facebook-square font-3rem facebook mr-2"></i></a>
+      </div>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <div class="short description">{{data.description}}</div>
+    </div>
+  </div>
+</div>

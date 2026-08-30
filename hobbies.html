@@ -1,0 +1,21 @@
+---
+layout: default
+title: Hobbies
+---
+<h1>Hobbies</h1>
+<ul class="hobby-list">
+  {% for hobby in site.data.hobbies %}
+  <li class="hobby-item">
+    <h2>{{ hobby.title }}</h2>
+    <p>{{ hobby.description }}</p>
+    {% if hobby.media != "" %}
+    <div class="hobby-media">
+      <iframe src="{{ hobby.media }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    {% endif %}
+    {% if hobby.link != "" %}
+    <p><a href="{{ hobby.link }}">More</a></p>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  {% include nav.html %}
+  <main class="page">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</body>
+</html>

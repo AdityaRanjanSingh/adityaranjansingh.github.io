@@ -1,0 +1,10 @@
+---
+layout: default
+title: Contact
+---
+<h1>Contact</h1>
+<ul class="contact-list">
+  {% for link in site.data.links %}
+  <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+  {% endfor %}
+</ul>

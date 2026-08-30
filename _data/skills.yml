@@ -1,0 +1,4 @@
+- category: "Languages"
+  items: ["JavaScript", "TypeScript", "Python"]
+- category: "Tools"
+  items: ["Git", "Docker"]

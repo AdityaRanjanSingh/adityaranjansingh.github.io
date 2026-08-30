@@ -2,4 +2,10 @@
 layout: default
 title: Home
 ---
-Placeholder — replaced with real About content in Task 4.
+
+# Hi, I'm Aditya Ranjan Singh
+
+Software engineer and filmmaker. This is a starter bio — edit this
+paragraph directly in `index.md` with your real tagline and background.
+
+![Profile photo](/assets/img/profile.jpg)

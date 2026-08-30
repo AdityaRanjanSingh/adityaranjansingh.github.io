@@ -97,11 +97,23 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+exclude:
+  - docs/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
 ```
 
 `permalink: pretty` makes a page file like `experience.html` build to
 `_site/experience/index.html`, servable at `/experience/` — this is what
 later nav links (`/experience/`, `/projects/`, etc.) assume.
+
+`exclude: [docs/, ...]` keeps Jekyll from trying to process
+`docs/superpowers/plans/*.md` as site content — those files contain Liquid
+tag examples in fenced code blocks that Jekyll's Liquid parser otherwise
+tries to render literally, breaking the build. (Discovered during
+implementation of this task; not in the original spec.)
 
 - [ ] **Step 3: Write .gitignore**
 

@@ -1,0 +1,15 @@
+title: Aditya Ranjan Singh
+description: "Portfolio of Aditya Ranjan Singh — software engineer and filmmaker."
+url: "https://adityaranjansingh.github.io"
+permalink: pretty
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - docs/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

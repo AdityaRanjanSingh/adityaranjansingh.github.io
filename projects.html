@@ -3,9 +3,9 @@ layout: default
 title: Projects
 ---
 <h1>Projects</h1>
-<ul class="project-list">
+<ul class="card-list">
   {% for project in site.data.projects %}
-  <li class="project-item">
+  <li class="card" data-reveal>
     <h2><a href="{{ project.link }}">{{ project.name }}</a></h2>
     <p>{{ project.description }}</p>
     <p class="tags">

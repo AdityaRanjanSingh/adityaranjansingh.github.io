@@ -3,9 +3,9 @@ layout: default
 title: Experience
 ---
 <h1>Experience</h1>
-<ul class="experience-list">
+<ul class="card-list">
   {% for job in site.data.experience %}
-  <li class="experience-item">
+  <li class="card" data-reveal>
     <h2>{{ job.title }} — {{ job.company }}</h2>
     <p class="dates">{{ job.dates }}</p>
     <ul>

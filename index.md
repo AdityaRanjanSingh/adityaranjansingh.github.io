@@ -6,8 +6,10 @@ title: Home
   <div class="hero__avatar">ARS</div>
   <h1>Hi, I'm <span class="accent">Aditya Ranjan Singh</span></h1>
   <p class="hero__tagline">
-    Software engineer and filmmaker. This is a starter bio — edit this
-    paragraph directly in <code>index.md</code> with your real tagline and background.
+    Full-stack software engineer and filmmaker based in Stockholm. Senior
+    Product Engineer at Mentimeter, currently leading MCP integrations and
+    LMS platform work, with a decade building full-stack products at Klarna,
+    PostNord, and Capgemini.
   </p>
   <div class="hero__cta">
     <a class="button button--primary" href="{{ '/projects/' | relative_url }}">View Projects</a>

@@ -1,6 +1,56 @@
-- title: "Software Engineer"
-  company: "Example Company"
-  dates: "2022 – Present"
+- title: "Senior Product Engineer"
+  company: "Mentimeter"
+  dates: "Oct 2025 – Present"
   bullets:
-    - "Describe a key responsibility or achievement here."
-    - "Add another bullet point describing impact."
+    - "Drive complex, cross-functional initiatives on the Integrations team from architectural design through implementation and rollout."
+    - "Lead development and rollout of scalable LMS integrations across Canvas, Blackboard, and Moodle."
+    - "Leading Mentimeter's MCP integration, enabling Mentimeter to connect with AI platforms such as ChatGPT and Claude."
+    - "Shape architectural direction and establish technical patterns for secure, reliable, and maintainable integrations."
+
+- title: "Senior Full Stack Engineer"
+  company: "Mentimeter"
+  dates: "May 2025 – Oct 2025"
+  bullets:
+    - "Built secure, seamless user identity and access features on the Identity Experience team."
+    - "Designed and implemented end-to-end solutions using Next.js, Ruby, and TypeScript, leveraging AWS for scalability and reliability."
+    - "Collaborated cross-functionally on customer-facing features, focusing on performance, security, and UX."
+
+- title: "Technical Lead"
+  company: "PostNord"
+  dates: "Feb 2024 – May 2025"
+  bullets:
+    - "Led technical direction for engineering initiatives in Stockholm."
+
+- title: "Senior Engineer"
+  company: "Klarna"
+  dates: "Jul 2021 – Feb 2024"
+  bullets:
+    - "Part of the card onboarding and lifecycle team; owned the full onboarding flow for credit and debit cards, including user info capture, credit checks, and fraud checks."
+    - "Managed the card lifecycle: freeze, replace, and renew card features."
+    - "Frontend built with React Native; backend with Node.js/Express running in Docker containers."
+    - "Led tech discoveries and designed solutions to simplify offerings when launching in new markets, including a waitlist rollout and automatic card renewal for active users."
+    - "Contributed to the architecture forum, reviewing RFCs and providing design feedback."
+    - "Used A/B testing (Amplitude) to inform product decisions, and Datadog for observability, monitors, and alerts."
+
+- title: "Engineer"
+  company: "Klarna"
+  dates: "Jan 2021 – Jul 2021"
+  bullets:
+    - "Stockholm-based engineering role prior to promotion to Senior Engineer."
+
+- title: "Full-Stack Developer"
+  company: "Capgemini"
+  dates: "Jul 2018 – Jan 2021"
+  bullets:
+    - "Built applications from scratch using Agile principles, including a chatbot ('Wilbur') using Amazon Lex, AWS Lambda, DynamoDB, and S3."
+    - "Worked extensively with Node.js and integrated D3.js dynamic pie and bar charts for data visualization."
+    - "Built custom directives, filters, and services in Angular 6, integrating third-party libraries."
+    - "Tested with Jasmine, Karma, and Cypress."
+
+- title: "Associate Consultant"
+  company: "Capgemini"
+  dates: "Jun 2015 – Jan 2021"
+  bullets:
+    - "Gathered client requirements and designed solutions to resolve problems in existing systems."
+    - "Designed screens informed by user feedback and hosted walkthroughs with client managers."
+    - "Developed screens using the SAP UI5 framework and supported testing and go-live."

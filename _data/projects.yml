@@ -1,0 +1,4 @@
+- name: "Sample Project"
+  description: "One or two sentences describing what it does and your role."
+  link: "https://github.com/AdityaRanjanSingh/sample-project"
+  tags: ["JavaScript", "Angular"]

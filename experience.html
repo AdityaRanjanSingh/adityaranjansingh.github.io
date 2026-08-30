@@ -1,0 +1,18 @@
+---
+layout: default
+title: Experience
+---
+<h1>Experience</h1>
+<ul class="experience-list">
+  {% for job in site.data.experience %}
+  <li class="experience-item">
+    <h2>{{ job.title }} — {{ job.company }}</h2>
+    <p class="dates">{{ job.dates }}</p>
+    <ul>
+      {% for bullet in job.bullets %}
+      <li>{{ bullet }}</li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>

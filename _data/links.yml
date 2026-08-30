@@ -1,0 +1,6 @@
+- label: "Email"
+  url: "mailto:you@example.com"
+- label: "LinkedIn"
+  url: "https://www.linkedin.com/in/yourprofile"
+- label: "GitHub"
+  url: "https://github.com/AdityaRanjanSingh"

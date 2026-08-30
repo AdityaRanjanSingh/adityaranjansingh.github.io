@@ -1,4 +1,14 @@
 - category: "Languages"
   items: ["JavaScript", "TypeScript", "Python"]
-- category: "Tools"
-  items: ["Git", "Docker"]
+- category: "Frontend"
+  items: ["React", "React Native", "Next.js", "Angular 6", "Redux", "D3.js", "Bootstrap", "HTML", "CSS3"]
+- category: "Backend"
+  items: ["Node.js", "Express.js", "Ruby"]
+- category: "Cloud & Infra"
+  items: ["AWS (Lambda, DynamoDB, S3, API Gateway, EC2, Lex, CodeCommit, CodePipeline)", "GCP", "Terraform", "CI/CD", "Docker"]
+- category: "Databases"
+  items: ["DynamoDB", "DocumentDB", "MongoDB", "Mongoose"]
+- category: "Testing"
+  items: ["Jest", "Jasmine", "Karma", "Cypress"]
+- category: "Tools & Practices"
+  items: ["Git", "SVN", "Webpack", "Grunt", "Gulp", "npm", "OAuth", "Claude Code", "Agile"]

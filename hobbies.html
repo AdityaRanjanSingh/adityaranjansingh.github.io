@@ -3,9 +3,9 @@ layout: default
 title: Hobbies
 ---
 <h1>Hobbies</h1>
-<ul class="hobby-list">
+<ul class="card-list">
   {% for hobby in site.data.hobbies %}
-  <li class="hobby-item">
+  <li class="card" data-reveal>
     <h2>{{ hobby.title }}</h2>
     <p>{{ hobby.description }}</p>
     {% if hobby.media != "" %}
